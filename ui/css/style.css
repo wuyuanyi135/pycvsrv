@@ -1,0 +1,61 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.img-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#range-threshold {
+
+}
+      
+
+.slider-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.slider-label {
+  margin-right: 15px;
+}
+
+.slider{
+  min-width: 350px;
+
+}
+
+td,th,tr {
+  text-align: center;
+}
